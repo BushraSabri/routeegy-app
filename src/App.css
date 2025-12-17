@@ -104,3 +104,12 @@ footer {
 .floating-field {
   margin-bottom: 50px;
 }
+.responsive-form {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .responsive-form {
+    width: 100%;
+  }
+}

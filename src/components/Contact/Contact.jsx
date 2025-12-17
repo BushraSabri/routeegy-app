@@ -10,7 +10,7 @@ function Contact() {
 
       <Divider color="black" />
 
-      <form className="w-50 mx-auto py-5">
+      <form className="responsive-form  mx-auto py-5">
         <div className=" position-relative floating-field">
           <input
             type="text"

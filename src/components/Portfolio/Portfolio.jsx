@@ -22,7 +22,7 @@ function Portfolio() {
 
       <div className="row g-5">
         {images.map((img, index) => (
-          <div className="col-md-4" key={index}>
+          <div className="col-md-6 col-lg-4" key={index}>
             <div
               className="portfolio-item"
               onClick={() => {
